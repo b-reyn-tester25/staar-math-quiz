@@ -1,24 +1,13 @@
 {
   "files": {
-    "main.css": "/staar-math-quiz/static/css/main.79bc83e8.css",
-<<<<<<< HEAD
-    "main.js": "/staar-math-quiz/static/js/main.56a2ed57.js",
+    "main.css": "/staar-math-quiz/static/css/main.a0f48a3c.css",
+    "main.js": "/staar-math-quiz/static/js/main.b4152fa8.js",
     "index.html": "/staar-math-quiz/index.html",
-    "main.79bc83e8.css.map": "/staar-math-quiz/static/css/main.79bc83e8.css.map",
-    "main.56a2ed57.js.map": "/staar-math-quiz/static/js/main.56a2ed57.js.map"
+    "main.a0f48a3c.css.map": "/staar-math-quiz/static/css/main.a0f48a3c.css.map",
+    "main.b4152fa8.js.map": "/staar-math-quiz/static/js/main.b4152fa8.js.map"
   },
   "entrypoints": [
-    "static/css/main.79bc83e8.css",
-    "static/js/main.56a2ed57.js"
-=======
-    "main.js": "/staar-math-quiz/static/js/main.2e0095cf.js",
-    "index.html": "/staar-math-quiz/index.html",
-    "main.79bc83e8.css.map": "/staar-math-quiz/static/css/main.79bc83e8.css.map",
-    "main.2e0095cf.js.map": "/staar-math-quiz/static/js/main.2e0095cf.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.79bc83e8.css",
-    "static/js/main.2e0095cf.js"
->>>>>>> f799a54aef9725a0ff51ca266ad525bd71075d93
+    "static/css/main.a0f48a3c.css",
+    "static/js/main.b4152fa8.js"
   ]
 }
