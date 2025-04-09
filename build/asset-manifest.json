@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/staar-math-quiz/static/css/main.a0f48a3c.css",
+    "main.js": "/staar-math-quiz/static/js/main.fffd82ef.js",
+    "index.html": "/staar-math-quiz/index.html",
+    "main.a0f48a3c.css.map": "/staar-math-quiz/static/css/main.a0f48a3c.css.map",
+    "main.fffd82ef.js.map": "/staar-math-quiz/static/js/main.fffd82ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0f48a3c.css",
+    "static/js/main.fffd82ef.js"
+  ]
+}
