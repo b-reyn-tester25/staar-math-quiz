@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/staar-math-quiz/static/css/main.a0f48a3c.css",
-    "main.js": "/staar-math-quiz/static/js/main.b4152fa8.js",
+    "main.js": "/staar-math-quiz/static/js/main.0ac218ba.js",
     "index.html": "/staar-math-quiz/index.html",
     "main.a0f48a3c.css.map": "/staar-math-quiz/static/css/main.a0f48a3c.css.map",
-    "main.b4152fa8.js.map": "/staar-math-quiz/static/js/main.b4152fa8.js.map"
+    "main.0ac218ba.js.map": "/staar-math-quiz/static/js/main.0ac218ba.js.map"
   },
   "entrypoints": [
     "static/css/main.a0f48a3c.css",
-    "static/js/main.b4152fa8.js"
+    "static/js/main.0ac218ba.js"
   ]
 }
