@@ -14,8 +14,12 @@ export default function App() {
   const [confetti, setConfetti] = useState(false);
 
   useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem(selectedDate) || "{}");
-    setAnswers(stored);
+    const version = "v2.0"; // used to clear storage if structure updates
+    if (localStorage.getItem("version") !== version) {
+      localStorage.clear();
+      localStorage.setItem("version", version);
+    }
+    setAnswers(JSON.parse(localStorage.getItem(selectedDate) || "{}"));
   }, [selectedDate]);
 
   useEffect(() => {
@@ -97,6 +101,14 @@ export default function App() {
           {allAnswered && (
             <p className="finished-message">🎉 You finished today’s questions! Great job!</p>
           )}
+          <button
+            className="message-dad"
+            onClick={() => {
+              window.location.href = "sms:9403917642"; // Replace with your number
+            }}
+          >
+            📩 Message Dad for Help
+          </button>
         </>
       )}
       {confetti && <Confetti />}
