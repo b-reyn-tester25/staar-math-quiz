@@ -1,6 +1,83 @@
 
 body {
-  font-family: sans-serif;
-  padding: 2rem;
-  background: #f9f9f9;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to right, #ffd6e9, #ffe4f7, #e0f7ff);
+  color: #333;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #ff69b4;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+.quiz-card {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.score {
+  font-size: 1rem;
+  background: #fff3cd;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.date-selector {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.locked {
+  text-align: center;
+  color: #ff4d4f;
+  font-weight: bold;
+}
+
+.explanation {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.finished-message {
+  text-align: center;
+  color: #32CD32;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.restart {
+  margin-left: 1rem;
+  background-color: #ff69b4;
+  color: white;
 }
